@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
  <title>My Website - About</title>
 </head>
 <body>
  <h1>Keneel Thomas</h1>
  <p>I like playing video games and watching Youtube videos. After university I want to start working and build up a business so that one day I can help others in Jamaica so this country can become a better place.</p>
+ <img src="{{ url_for('static', filename='img.jpg') }}" alt="My Image">
 </body>
 </html>
